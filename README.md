@@ -37,7 +37,7 @@ During the initial execution, the pipeline failed due to a workflow configuratio
 After fixing the configuration issue, the pipeline ran successfully and completed all the steps without errors.
 
 ### Pipeline Success Screenshot
-https://raw.github.com/Shravan96-Cloud/CI-CD-PIPELINE-SETUP/main/images/pipeline-success.png
+![Success SS](https://raw.github.com/Shravan96-Cloud/CI-CD-PIPELINE-SETUP/main/images/pipeline-success.png)
 
 Conclusion
 This project successfully demonstrates a working CI/CD pipeline using GitHub Actions. The pipeline automates the process of building and deploying a web application, reducing manual effort and ensuring consistency in deployments.
