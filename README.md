@@ -31,7 +31,7 @@ The application deployment step runs automatically.
 During the initial execution, the pipeline failed due to a workflow configuration issue. The error was identified by checking the GitHub Actions logs. After correcting the workflow file, the issue was resolved.
 
 ### Pipeline Failed Screenshot
-https://raw.github.com/Shravan96-Cloud/CI-CD-PIPELINE-SETUP/main/images/pipeline-failed.png
+![Failed SS]https://raw.githubusercontent.com/Shravan96-Cloud/CI-CD-PIPELINE-SETUP/main/images/pipeline-failed.png
 
 ### Successful Execution
 After fixing the configuration issue, the pipeline ran successfully and completed all the steps without errors.
