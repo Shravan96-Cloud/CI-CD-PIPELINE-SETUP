@@ -1,33 +1,43 @@
-# CI/CD Pipeline Setup
+## CI/CD Pipeline Setup
 
 ## Objective
-To build a CI/CD pipeline using GitHub Actions.
+The objective of this project is to build a CI/CD pipeline using GitHub Actions.
+The pipeline automatically runs whenever code is pushed to the main branch and performs build and deployment steps for a simple web application.
 
 ## Tools Used
-- GitHub
-- GitHub Actions
-- Visual Studio Code
-- HTML
+GitHub
+GitHub Actions
+Visual Studio Code
+HTML
 
-## CI/CD Workflow Explanation
-1. Developer pushes code to the main branch.
-2. GitHub Actions workflow is triggered automatically.
-3. The pipeline checks out the source code.
-4. Basic test step is executed.
-5. Application deployment step runs automatically.
+## Project Description
+In this project, a simple web application is created using HTML. A CI/CD pipeline is configured using GitHub Actions. Whenever a developer pushes code to the main branch, the pipeline is triggered automatically. The pipeline checks out the source code, runs a basic test step, and then performs a deployment step.
 
-## Pipeline Execution Evidence
+## CI/CD Workflow Steps
+
+Developer pushes code to the main branch.
+
+GitHub Actions workflow starts automatically.
+
+The pipeline checks out the repository code.
+
+A basic test step is executed.
+
+The application deployment step runs automatically.
+
+## Pipeline Execution Screenshots
 
 ### Initial Failure
-The pipeline initially failed due to a workflow configuration issue.  
-The error was analyzed and the configuration was corrected.
+During the initial execution, the pipeline failed due to a workflow configuration issue. The error was identified by checking the GitHub Actions logs. After correcting the workflow file, the issue was resolved.
 
-![Pipeline Failed](images/pipeline-failed.png)
+### Pipeline Failed Screenshot
+https://raw.githubusercontent.com/your-username/CI-CD-PIPELINE-SETUP/main/images/pipeline-failed.png
 
 ### Successful Execution
-After fixing the issue, the pipeline ran successfully and completed all stages.
+After fixing the configuration issue, the pipeline ran successfully and completed all the steps without errors.
 
-![Pipeline Success](images/pipeline-success.png)
+### Pipeline Success Screenshot
+https://raw.githubusercontent.com/your-username/CI-CD-PIPELINE-SETUP/main/images/pipeline-success.png
 
-## Conclusion
-This project demonstrates a working CI/CD pipeline that automates the deployment process using GitHub Actions.
+Conclusion
+This project successfully demonstrates a working CI/CD pipeline using GitHub Actions. The pipeline automates the process of building and deploying a web application, reducing manual effort and ensuring consistency in deployments.
